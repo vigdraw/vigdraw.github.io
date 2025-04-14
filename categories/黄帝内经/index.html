@@ -23,8 +23,8 @@
   
     <meta name="description" content="阴阳不调，百病丛生。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ネф イω">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:title" content="分类 - 黄帝内经">
+<meta property="og:url" content="http://example.com/categories/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F/index.html">
 <meta property="og:site_name" content="ネф イω">
 <meta property="og:description" content="阴阳不调，百病丛生。">
 <meta property="og:locale" content="zh_CN">
@@ -35,7 +35,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>ネф イω</title>
+  <title>分类 - 黄帝内经 - ネф イω</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -89,7 +89,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 100vh;">
+<div class="header-inner" style="height: 60vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -195,17 +195,13 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="天人相应，法于阴阳"></span>
+            <span id="subtitle" data-typed-text="分类 - 黄帝内经"></span>
           
         </div>
 
         
       </div>
 
-      
-        <div class="scroll-down-bar">
-          <i class="iconfont icon-arrowdown"></i>
-        </div>
       
     </div>
   </div>
@@ -219,74 +215,28 @@
     
       <div class="container nopadding-x-md">
         <div id="board"
-          style="margin-top: 0">
+          >
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-
-  <div class="row mx-auto index-card">
+<div class="list-group">
+  <p class="h4">共计 1 篇文章</p>
+  <hr>
+  
+  
     
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h2 class="index-header">
-        
-        <a href="/2025/04/14/%E4%B8%8A%E5%8F%A4%E5%A4%A9%E7%9C%9F%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%80/" target="_self">
-          上古天真论篇第一
-        </a>
-      </h2>
-
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/14/%E4%B8%8A%E5%8F%A4%E5%A4%A9%E7%9C%9F%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%80/" target="_self">
-        <div>
-          原文 昔在黄帝，生而神灵，弱而能言，幼而徇齐，长而敦敏，成而登天。乃问于天师曰：余闻上古之人，春秋皆度百岁，而动作不衰；今时之人，年半百而动作皆衰者，时世异耶？将人失之耶？岐伯对曰：上古之人，其知道者，法于阴阳，和于术数，食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。今时之人不然也，以酒为浆，以妄为常，醉以入房，以欲竭其精，以耗散其真，不知持满，不时御神，务快其心，逆于生乐
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2025-04-14 14:14" pubdate>
-              2025-04-14
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
+      <p class="h5">2025</p>
     
-      <span class="category-chain">
-        
-  <a href="/categories/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F/" class="category-chain-item">黄帝内经</a>
+    <a href="/2025/04/14/%E4%B8%8A%E5%8F%A4%E5%A4%A9%E7%9C%9F%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%80/" class="list-group-item list-group-item-action">
+      <time>04-14</time>
+      <div class="list-group-item-title">上古天真论篇第一</div>
+    </a>
   
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/%E5%86%85%E7%BB%8F/">#内经</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
+</div>
 
 
 
@@ -375,37 +325,7 @@
       }
       var text = subtitle.getAttribute('data-typed-text');
       
-        jQuery.ajax({
-          type: 'GET',
-          url: 'https://v1.hitokoto.cn/',
-          headers: {},
-          dataType: 'json',
-          success: function(result) {
-            var apiText;
-            if (result) {
-              var keys = 'hitokoto'.split(',');
-              if (result instanceof Array) {
-                result = result[0];
-              }
-              for (const k of keys) {
-                var value = result[k];
-                if (typeof value === 'string') {
-                  apiText = value;
-                  break;
-                } else if (value instanceof Object) {
-                  result = value;
-                }
-              }
-            }
-            apiText ? typing(apiText) : typing(text);
-          },
-          error: function(xhr, status, error) {
-            if (error) {
-              console.error('Failed to request https://v1.hitokoto.cn/:', error);
-            }
-            typing(text);
-          }
-        })
+        typing(text);
       
     })(window, document);
   </script>
