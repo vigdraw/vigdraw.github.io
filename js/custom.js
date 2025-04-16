@@ -1,6 +1,6 @@
 // 计算运行时间
 function updateRuntime() {
-  const startTime = new Date('2023-01-01 00:00:00'); // 替换为你的网站上线时间
+  const startTime = new Date('2025-04-01 00:00:00'); // 替换为你的网站上线时间
   const now = new Date();
   const diff = now - startTime;
   
