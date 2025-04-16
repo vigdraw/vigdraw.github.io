@@ -1,0 +1,10 @@
+/* /source/css/custom.css */
+.runtime {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+.runtime span {
+  color: #ff6b6b;
+  font-weight: bold;
+}
