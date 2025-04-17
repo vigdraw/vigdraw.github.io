@@ -1,3 +1,4 @@
+# 下面是对页脚运行时间的优化
 /* /source/css/custom.css */
 .runtime {
   margin-top: 10px;
@@ -9,6 +10,7 @@
   font-weight: bold;
 }
 
+# 下面是表格的优化
 /* 表格强制横向滚动 */
 .markdown-body table {
   display: block;
@@ -23,4 +25,10 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; /* 添加触摸滚动优化 */
   }
+}
+
+# 下面是文章左右对齐的优化
+.post-content p {
+  text-align: justify;  /* 两端对齐 */
+  text-justify: inter-word; /* 英文单词优化 */
 }
