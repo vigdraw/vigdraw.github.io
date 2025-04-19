@@ -1,13 +1,52 @@
 # 下面是对页脚运行时间的优化
-/* /source/css/custom.css */
-.runtime {
-  margin-top: 10px;
+/* 运行时间整体样式 */
+#runtime_span {
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 14px;
   color: #666;
+  display: inline-block;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.runtime span {
-  color: #ff6b6b;
+
+/* 文字部分样式 */
+.runtime-text {
   font-weight: bold;
+  color: #333;
+}
+
+/* 数字部分样式 */
+.runtime-number {
+  font-weight: bold;
+  color: #ff6b6b;  /* Fluid 主题默认强调色 */
+  padding: 0 2px;
+}
+
+/* 单位部分样式 */
+.runtime-unit {
+  color: #888;
+  font-size: 0.9em;
+  padding-right: 4px;
+}
+
+/* 暗黑模式适配 */
+[data-user-color-scheme="dark"] #runtime_span {
+  background: rgba(30, 30, 30, 0.8);
+  color: #ccc;
+}
+
+[data-user-color-scheme="dark"] .runtime-text {
+  color: #eee;
+}
+
+[data-user-color-scheme="dark"] .runtime-number {
+  color: #ff8787;  /* 暗黑模式下更柔和的红色 */
+}
+
+[data-user-color-scheme="dark"] .runtime-unit {
+  color: #aaa;
 }
 
 # 下面是表格的优化
