@@ -9,6 +9,15 @@
   background: rgba(255, 255, 255, 0.8);
   border-radius: 4px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  /* 绝对定位并固定到页面底部 */
+  position: absolute;
+  bottom: 10px; /* 与底部保持10px的距离 */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* 确保它在最上层 */
+  background-color: rgba(255, 255, 255, 0.9); /* 可选背景色 */
+  padding: 10px;
 }
 
 /* 文字部分样式 */
@@ -65,5 +74,3 @@
     -webkit-overflow-scrolling: touch; /* 添加触摸滚动优化 */
   }
 }
-
-
