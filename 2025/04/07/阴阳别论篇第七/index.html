@@ -437,7 +437,7 @@
     Fluid.utils.loadComments('#comments', function() {
       Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.6.8/twikoo.all.min.js', function() {
         var options = Object.assign(
-          {"envId":"https://twikoo-vigdraw.netlify.app/.netlify/functions/twikoo","region":"ap-shanghai","path":"window.location.pathname"},
+          {"envId":"https://twikoo-vigdraw.netlify.app/.netlify/functions/twikoo","region":"ap-shanghai","path":"window.location.pathname","placeholder":"昵称输入QQ号，可自动识别头像和邮箱，留下网址方便回访"},
           {
             el: '#twikoo',
             path: 'window.location.pathname',
