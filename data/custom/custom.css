@@ -66,8 +66,4 @@
   }
 }
 
-# 下面是文章左右对齐的优化
-.post-content p {
-  text-align: justify;  /* 两端对齐 */
-  text-justify: inter-word; /* 英文单词优化 */
-}
+

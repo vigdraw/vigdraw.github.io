@@ -36,3 +36,4 @@ if (document.readyState === "complete") {
     setInterval(updateRuntime, 1000);
   });
 }
+
