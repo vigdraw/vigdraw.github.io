@@ -1,3 +1,4 @@
+
 // 计算运行时间
 function updateRuntime() {
   const startTime = new Date(2025, 3, 1, 0, 0, 0); // 2025年4月1日 00:00:00
@@ -36,4 +37,5 @@ if (document.readyState === "complete") {
     setInterval(updateRuntime, 1000);
   });
 }
+
 
