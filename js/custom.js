@@ -21,4 +21,3 @@ function show_runtime() {
 }
 show_runtime();
 
-
