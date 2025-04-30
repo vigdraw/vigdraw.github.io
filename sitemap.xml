@@ -38,6 +38,24 @@
   </url>
   
   <url>
+    <loc>https://vigdraw.github.io/2025/04/30/%E9%98%B3%E6%98%8E%E8%84%89%E8%A7%A3%E7%AF%87%E7%AC%AC%E4%B8%89%E5%8D%81/</loc>
+    
+    <lastmod>2025-04-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vigdraw.github.io/2025/04/29/%E5%A4%AA%E9%98%B4%E9%98%B3%E6%98%8E%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B9%9D/</loc>
+    
+    <lastmod>2025-04-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://vigdraw.github.io/2025/04/19/%E7%8E%89%E6%9C%BA%E7%9C%9F%E8%97%8F%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%8D%81%E4%B9%9D/</loc>
     
     <lastmod>2025-04-19</lastmod>
@@ -301,7 +319,7 @@
 
   <url>
     <loc>https://vigdraw.github.io/</loc>
-    <lastmod>2025-04-28</lastmod>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -309,14 +327,14 @@
   
   <url>
     <loc>https://vigdraw.github.io/tags/%E5%86%85%E7%BB%8F/</loc>
-    <lastmod>2025-04-28</lastmod>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://vigdraw.github.io/tags/%E9%92%88%E7%81%B8/</loc>
-    <lastmod>2025-04-28</lastmod>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -325,14 +343,14 @@
   
   <url>
     <loc>https://vigdraw.github.io/categories/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F/</loc>
-    <lastmod>2025-04-28</lastmod>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://vigdraw.github.io/categories/%E9%92%88%E7%81%B8%E5%A4%A7%E6%88%90/</loc>
-    <lastmod>2025-04-28</lastmod>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
